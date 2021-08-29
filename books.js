@@ -47,9 +47,9 @@ console.log(data);
         
             // Create the html markup for each li
             li.innerHTML = (`
-                <p><strong>Repo:</strong> ${data[i].Title}</p>
-                <p><strong>Description:</strong> ${data[i].Author}</p>
-                <p><strong>URL:</strong> <a href="${data[i].ISBN}">${data[i].ISBN}</a></p>
+                <p><strong>Title:</strong> ${data[i].Title}</p>
+                <p><strong>Author:</strong> ${data[i].Author}</p>
+                <p><strong>ISBN:</strong> <a href="${data[i].ISBN}">${data[i].ISBN}</a></p>
             `);
             
             // Append each li to the ul
