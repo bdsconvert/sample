@@ -8,7 +8,7 @@ gitHubForm.addEventListener('submit', (e) => {
 
     let jsonfile = document.getElementById('jsonfilename');
     let jsonfilename = jsonfile.value;          
-alert(jsonfilename);
+console.log(jsonfilename);
     loadbooks(jsonfilename);
 
 })
@@ -29,10 +29,10 @@ function loadbooks(jsonfilename){
     // When request is received
     // Process it here
     xhr.onload = function () {
-        alert(this.response);
+        console.log(this.response);
         // Parse API data into JSON
         const data = JSON.parse(this.response);
-        alert(data);
+        console.log(data);
         // Loop over each object in data array
         for (let i in data) {
 
