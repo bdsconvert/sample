@@ -29,7 +29,7 @@ function loadbooks(jsonfilename){
     // When request is received
     // Process it here
     xhr.onload = function () {
-    
+        alert(this.response);
         // Parse API data into JSON
         const data = JSON.parse(this.response);
         alert(data);
