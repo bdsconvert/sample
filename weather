@@ -1,0 +1,5 @@
+const xhr = new XMLHttpRequest();
+    
+const url = `https://api.weather.gov/gridpoints/TOP/31,80/forecast`;
+   
+xhr.open('GET', url, true);
