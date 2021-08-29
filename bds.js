@@ -25,7 +25,7 @@ function requestUserRepos(username){
     const xhr = new XMLHttpRequest();
     
     // GitHub endpoint, dynamically passing in specified username
-    const url = `https://api.github.com/users/${username}/repos/bds/index.html`;
+    const url = `https://api.github.com/users/${username}/bds/index.html`;
    
     // Open a new connection, using a GET request via URL endpoint
     // Providing 3 arguments (GET/POST, The URL, Async True/False)
