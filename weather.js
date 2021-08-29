@@ -9,3 +9,4 @@ xhr.onload = function () {
     const data = JSON.parse(this.response);
     console.log(data);
 }
+ xhr.send();
